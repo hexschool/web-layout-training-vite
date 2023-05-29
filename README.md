@@ -1,4 +1,4 @@
-# 網頁切版直播班 Vite 範例 - Bootstrap 版本
+# 網頁切版直播班 Vite 範例
 
 ## Node.js 版本
   - 專案的 Node.js 版本需為 v16 以上
@@ -35,7 +35,7 @@ vite 專案執行開發模式 `npm run dev` 後即會自動監聽，不需要使
 ### Windows 版本
 1. 在 GitHub 建立一個新的 Repository
 
-2. 打開本地專案 vite.config.js 檔案，可以看見 `base: '/deploy-test/'` 這行程式碼，請將 deploy-test 替換成自己的專案名稱。例如：我在上方第一步建立的新 Repository 專案名稱取名為 homework，那麼 `base: '/deploy-test/'` 就要改為 `base: '/homework/'`
+2. 打開本地專案 vite.config.js 檔案，可以看見 `base: '/web-layout-training-vite/'` 這行程式碼，請將 web-layout-training-vite 替換成自己的專案名稱。例如：我在上方第一步建立的新 Repository 專案名稱取名為 homework，那麼 `base: '/web-layout-training-vite/'` 就要改為 `base: '/homework/'`
 
 3. 使用 VS Code 打開本地專案 deploy.sh 檔案，將第 17 行的程式碼最前方的「#」符號移除，並將「<>」內的內容改為自己的 GitHub  帳號以及自己的專案名稱。範例：假如我的 GitHub 帳號是「john」，Repository 專案名稱是 「homework」那麼就將這行
 `# git push -f https://github.com/<你的 GitHub 帳號>/<你的 Repository 的名稱> main:gh-pages`
