@@ -10,7 +10,45 @@
     <%- include('./layout/header'); -%>
 
     <h1 class="index-title">我是首頁</h1>
-    <img src="../assets/images/cat.jpg" style="width: 300px;" alt="cat">
+
+    <div class="card" style="width: 18rem">
+      <img src="../assets/images/cat.jpg" class="card-img-top" alt="cat" />
+      <div class="card-body">
+        <h5 class="card-title">卡片元件</h5>
+        <p class="card-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, odit, iusto odio assumenda alias id
+          nobis earum!
+        </p>
+      </div>
+    </div>
+
+    <!-- Modal 按鈕 -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      打開 modal
+    </button>
+
+    <!-- Modal 元件 -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal 標題</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">內容</div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
+            <button type="button" class="btn btn-primary">確定</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <%- include('./layout/footer'); -%>
 
