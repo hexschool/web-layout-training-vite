@@ -1,3 +1,3 @@
-import './assets/scss/all.scss';
+import './assets/css/main.css';
 
 console.log("Hello world!");

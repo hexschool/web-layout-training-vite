@@ -1,4 +1,4 @@
-# 網頁切版直播班 Vite 範例
+# 網頁切版直播班 Vite 範例 - Tailwind CSS 版本
 
 ## Node.js 版本
   - 專案的 Node.js 版本需為 v16 以上
@@ -16,7 +16,7 @@
 ## 資料夾結構
   - assets # 靜態資源放置處
     - images # 圖片放置處
-    - scss # SCSS 的樣式放置處
+    - css # CSS 的樣式放置處
 
   - layout # ejs 模板放置處
   - pages # 頁面放置處
