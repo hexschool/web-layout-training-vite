@@ -1,19 +1,461 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>index</title>
-  </head>
-  <body>
-    <%- include('./layout/header'); -%>
 
-    <h1 class="index-title">我是首頁</h1>
-    <img src="../assets/images/cat.jpg" style="width: 300px;" alt="cat">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WOWOROOM</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-    <%- include('./layout/footer'); -%>
+</head>
+
+<body>
+  <%- include('./layout/header'); -%>
+
+    <section class="wrap" id="bedAdvantage">
+      <div class="banner">
+        <h2 class="banner-text">窩窩家居<br>跟您一起品味生活</h2>
+      </div>
+      <h3 class="section-title">床墊優勢</h3>
+      <ul class="bedAdvantage">
+        <li>
+          <img class="bedAdvantage-img" src="https://i.imgur.com/tR426y5.png" alt="原木料環保">
+          <p class="bedAdvantage-text">原木料環保</p>
+        </li>
+        <li>
+          <img class="bedAdvantage-img" src="https://i.imgur.com/Fd2MiBb.png" alt="好收納">
+          <p class="bedAdvantage-text">好收納</p>
+        </li>
+        <li>
+          <img class="bedAdvantage-img"
+            src="https://github.com/hexschool/js-training/blob/main/%E7%AC%AC%E4%B9%9D%E9%80%B1%E4%B8%BB%E7%B7%9A%E4%BB%BB%E5%8B%99%E5%9C%96%E5%BA%AB/5n1uTFh.png?raw=true"
+            alt="好組裝">
+          <p class="bedAdvantage-text">好組裝</p>
+        </li>
+      </ul>
+    </section>
+    <section class="furniture-compare">
+      <div class="wrap">
+        <h3 class="section-title">家具比較</h3>
+        <div class="overflowWrap">
+          <table class="compare-table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>窩窩系統模組家具</th>
+                <th class="text-muted">組合式家具</th>
+                <th class="text-muted">實木家具</th>
+              </tr>
+            </thead>
+            <tr>
+              <td>可單人自行組裝</td>
+              <td><span class="material-icons">done</span></td>
+              <td class="text-muted">不一定</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>可多次重複拆裝</td>
+              <td><span class="material-icons">done</span></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>床墊規格彈性大</td>
+              <td><span class="material-icons">done</span></td>
+              <td class="text-muted">不一定</td>
+              <td class="text-muted">不一定</td>
+            </tr>
+            <tr>
+              <td>材質可長久使用</td>
+              <td><span class="material-icons">done</span></td>
+              <td></td>
+              <td><span class="material-icons">done</span></td>
+            </tr>
+            <tr>
+              <td>小客車即可搬運</td>
+              <td><span class="material-icons">done</span></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section class="recommendation" id="recommendation">
+      <div class="wrap">
+        <h3 class="section-title">好評推薦</h3>
+        <div class="recommendation-wall">
+          <ul class="gallery-top">
+            <li class="recommendation-card">
+              <img src="https://i.imgur.com/cXcOLhu.png" alt="">
+              <div class="recommend-content">
+                <div class="recommend-img">
+                  <img src="https://i.imgur.com/I9L7WOr.png" alt="">
+                  <div>
+                    <p>王六角</p>
+                    <p class="recommend-text">Jodan 雙人床架</p>
+                  </div>
+                </div>
+                <p>CP值很高。</p>
+              </div>
+            </li>
+            <li class="recommendation-card">
+              <img src="https://i.imgur.com/BefHmH2.png" alt="">
+              <div class="recommend-content">
+                <div class="recommend-img">
+                  <img src="https://i.imgur.com/CUFGfay.png" alt="">
+                  <div>
+                    <p>Leaf</p>
+                    <p class="recommend-text">Antony 雙人床架</p>
+                  </div>
+                </div>
+                <p>很喜歡～還有送三年保固～</p>
+              </div>
+            </li>
+            <li class="recommendation-card">
+              <img
+                src="https://github.com/hexschool/js-training/blob/main/%E7%AC%AC%E4%B9%9D%E9%80%B1%E4%B8%BB%E7%B7%9A%E4%BB%BB%E5%8B%99%E5%9C%96%E5%BA%AB/3IATkJG.png?raw=true"
+                alt="">
+              <div class="recommend-content">
+                <div class="recommend-img">
+                  <img src="https://i.imgur.com/8WwZsLS.png" alt="">
+                  <div>
+                    <p>美濃鄧子琪</p>
+                    <p class="recommend-text">Charles 系列儲物組合</p>
+                  </div>
+                </div>
+                <p>廚房必備美用品！</p>
+              </div>
+            </li>
+            <li class="recommendation-card">
+              <img src="https://i.imgur.com/HvT3zlU.png" alt="">
+              <div class="recommend-content">
+                <div class="recommend-img">
+                  <img src="https://i.imgur.com/NycuPVy.png" alt="">
+                  <div>
+                    <p>isRaynotArray</p>
+                    <p class="recommend-text">Antony 雙人床架</p>
+                  </div>
+                </div>
+                <p>物超所值!</p>
+              </div>
+            </li>
+            <li class="recommendation-card">
+              <img src="https://i.imgur.com/Ed7bxLr.png" alt="">
+              <div class="recommend-content">
+                <div class="recommend-img">
+                  <img src="https://i.imgur.com/zdFOQIv.png" alt="">
+                  <div>
+                    <p>程鮭魚</p>
+                    <p class="recommend-text">Louvre 雙人床架</p>
+                  </div>
+                </div>
+                <p>租屋用剛剛好</p>
+              </div>
+            </li>
+          </ul>
+          <ul class="gallery-bottom">
+            <li class="recommendation-card">
+              <img src="https://i.imgur.com/BefHmH2.png" alt="">
+              <div class="recommend-content">
+                <div class="recommend-img">
+                  <img src="https://i.imgur.com/W7fyzp2.png" alt="">
+                  <div>
+                    <p>小杰</p>
+                    <p class="recommend-text">Louvre 雙人床架</p>
+                  </div>
+                </div>
+                <p>非常舒適，有需要會再回購</p>
+              </div>
+            </li>
+            <li class="recommendation-card">
+              <img src="https://i.imgur.com/mjA01Tk.png" alt="">
+              <div class="recommend-content">
+                <div class="recommend-img">
+                  <img
+                    src="https://github.com/hexschool/js-training/blob/main/%E7%AC%AC%E4%B9%9D%E9%80%B1%E4%B8%BB%E7%B7%9A%E4%BB%BB%E5%8B%99%E5%9C%96%E5%BA%AB/8O1cOnG.png?raw=true"
+                    alt="">
+                  <div>
+                    <p>江八角</p>
+                    <p class="recommend-text">Charles 雙人床架</p>
+                  </div>
+                </div>
+                <p>品質不錯～</p>
+              </div>
+            </li>
+            <li class="recommendation-card">
+              <img src="https://i.imgur.com/npA3DgP.png" alt="">
+              <div class="recommend-content">
+                <div class="recommend-img">
+                  <img src="https://i.imgur.com/C0NDvSA.png" alt="">
+                  <div>
+                    <p>juni讚神</p>
+                    <p class="recommend-text">Antony 床邊桌</p>
+                  </div>
+                </div>
+                <p>讚ㄉ！</p>
+              </div>
+            </li>
+            <li class="recommendation-card">
+              <img src="https://i.imgur.com/Ed7bxLr.png" alt="">
+              <div class="recommend-content">
+                <div class="recommend-img">
+                  <img src="https://i.imgur.com/hUsTZDm.png" alt="">
+                  <div>
+                    <p>久安說安安</p>
+                    <p class="recommend-text">Antony 單人床架</p>
+                  </div>
+                </div>
+                <p>一個躺剛剛好。</p>
+              </div>
+            </li>
+            <li class="recommendation-card">
+              <img src="https://i.imgur.com/mjA01Tk.png" alt="">
+              <div class="recommend-content">
+                <div class="recommend-img">
+                  <img
+                    src="https://github.com/hexschool/js-training/blob/main/%E7%AC%AC%E4%B9%9D%E9%80%B1%E4%B8%BB%E7%B7%9A%E4%BB%BB%E5%8B%99%E5%9C%96%E5%BA%AB/3ako6QX.png?raw=true"
+                    alt="">
+                  <div>
+                    <p>PeiQun</p>
+                    <p class="recommend-text">Antony 雙人床架</p>
+                  </div>
+                </div>
+                <p>睡起來很舒適</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="transport" id="transport">
+      <h3 class="section-title">運送方式</h3>
+      <ul class="transport-intro">
+        <li class="transport-card">
+          <div class="cardImg">
+            <span class="material-icons">
+              shopping_cart
+            </span>
+          </div>
+          <h4>STEP.1</h4>
+          <p>選購商品</p>
+        </li>
+        <li class="transport-card">
+          <div class="cardImg">
+            <span class="material-icons">
+              format_list_bulleted
+            </span>
+          </div>
+          <h4>STEP.2</h4>
+          <p>填寫預定資料</p>
+        </li>
+        <li class="transport-card">
+          <div class="cardImg">
+            <span class="material-icons">
+              done
+            </span>
+          </div>
+          <h4>STEP.3</h4>
+          <p>預定成功</p>
+        </li>
+        <li class="transport-card">
+          <div class="cardImg">
+            <span class="material-icons">
+              local_post_office
+            </span>
+          </div>
+          <h4>STEP.4</h4>
+          <p>Email 付款資訊</p>
+        </li>
+      </ul>
+    </section>
+    <section class="wrap productDisplay">
+      <select name="" class="productSelect">
+        <option value="全部" selected>全部</option>
+        <option value="床架">床架</option>
+        <option value="收納">收納</option>
+        <option value="窗簾">窗簾</option>
+      </select>
+      <ul class="productWrap">
+        <!-- <li class="productCard">
+          <h4 class="productType">新品</h4>
+          <img
+            src="https://hexschool-api.s3.us-west-2.amazonaws.com/custom/dp6gW6u5hkUxxCuNi8RjbfgufygamNzdVHWb15lHZTxqZQs0gdDunQBS7F6M3MdegcQmKfLLoxHGgV3kYunUF37DNn6coPH6NqzZwRfhbsmEblpJQLqXLg4yCqUwP3IE.png"
+            alt="">
+          <a href="#" class="addCardBtn">加入購物車</a>
+          <h3>Antony 雙人床架／雙人加大</h3>
+          <del class="originPrice">NT$18,000</del>
+          <p class="nowPrice">NT$12,000</p>
+        </li>
+        <li class="productCard">
+          <h4 class="productType">新品</h4>
+          <img
+            src="https://hexschool-api.s3.us-west-2.amazonaws.com/custom/B87OUPkvlBvBl7Wyv3xj9ErOazczyGO8AFM5Nll38yEUvXMJHFXnid4g9YMzJOMq6t54ucmfgO4p7xw1azkleNYyhkEIINs8zJNbCPz1JUAZwaTKqIkaVQ3mRo2VBzAH.png"
+            alt="">
+          <a href="#" class="addCardBtn">加入購物車</a>
+          <h3>Antony 雙人床架／雙人加大</h3>
+          <del class="originPrice">NT$18,000</del>
+          <p class="nowPrice">NT$12,000</p>
+        </li>
+        <li class="productCard">
+          <h4 class="productType">新品</h4>
+          <img
+            src="https://hexschool-api.s3.us-west-2.amazonaws.com/custom/tTQQggBAfhl0vEeM7WmTwij1JbAwC7MBD2TSyjHbZHvBjnLU5tOtoGszOmODOEu6DRjzdjIpcEzeCCkmRWaL8JDJwaaWglER7P3V4JXKT7FT5gm0UL45CaHpSVlEXbKK.png"
+            alt="">
+          <a href="#" class="addCardBtn">加入購物車</a>
+          <h3>Antony 雙人床架／雙人加大</h3>
+          <del class="originPrice">NT$18,000</del>
+          <p class="nowPrice">NT$12,000</p>
+        </li>
+        <li class="productCard">
+          <h4 class="productType">新品</h4>
+          <img
+            src="https://hexschool-api.s3.us-west-2.amazonaws.com/custom/xgI6wM3uUCpkEEcauvHs67BFjGqG6Qxa9JTfOZTys6C0yJjqw5c8nJuA31gX77YVf04kZotGP9ZFQU7hLXkuoaRwNSssScpFnzfyPzYKODuyhw2QJrT1bDSim7aOBryv.png"
+            alt="">
+          <a href="#" class="addCardBtn">加入購物車</a>
+          <h3>Antony 雙人床架／雙人加大</h3>
+          <del class="originPrice">NT$18,000</del>
+          <p class="nowPrice">NT$12,000</p>
+        </li>
+        <li class="productCard">
+          <h4 class="productType">新品</h4>
+          <img
+            src="https://hexschool-api.s3.us-west-2.amazonaws.com/custom/Zr4h1Oqvc6NtAnpe5pNqJfGYyBJshAlKctfv0BTAZBqVAuvfSAWk4bcidBd8qBu1lRn5TWvib6O3UbmIAEt5w8SdB94GuFplZn6IM4SBvtxWJA2VnOqvQOsKungCPDXv.png"
+            alt="">
+          <a href="#" class="addCardBtn">加入購物車</a>
+          <h3>Antony 雙人床架／雙人加大</h3>
+          <del class="originPrice">NT$18,000</del>
+          <p class="nowPrice">NT$12,000</p>
+        </li>
+        <li class="productCard">
+          <h4 class="productType">新品</h4>
+          <img
+            src="https://hexschool-api.s3.us-west-2.amazonaws.com/custom/Tx99wDepg56aO5dGH7uGpU7REZwQLd1W0ec43M6cFw3o3z4eXTbeovq8WVseZ476BntlQnPPzaqkZgoj7xITviHMqf0kiAetjxyvuLiTmr7WdulcL364MTL321qZRJkP.png"
+            alt="">
+          <a href="#" class="addCardBtn">加入購物車</a>
+          <h3>Antony 雙人床架／雙人加大</h3>
+          <del class="originPrice">NT$18,000</del>
+          <p class="nowPrice">NT$12,000</p>
+        </li>
+        <li class="productCard">
+          <h4 class="productType">新品</h4>
+          <img
+            src="https://hexschool-api.s3.us-west-2.amazonaws.com/custom/VYPOpg83Jg7Ft5raI0eyzs6xSz0ttKzSJSklFq7il0HdwJ1iQ9kLHAU19rmkSapmyzRErTm1sxWO725W7CnowkRjwxgSyyRBo1ihGLwNbfYtgbo2nCTY9sarjqoxQbYX.png"
+            alt="">
+          <a href="#" class="addCardBtn">加入購物車</a>
+          <h3>Antony 雙人床架／雙人加大</h3>
+          <del class="originPrice">NT$18,000</del>
+          <p class="nowPrice">NT$12,000</p>
+        </li>
+        <li class="productCard">
+          <h4 class="productType">新品</h4>
+          <img
+            src="https://hexschool-api.s3.us-west-2.amazonaws.com/custom/XWnC8Of71WeSvCbkGy5MvZSyCrim50F9njuwHypcbiimd8tWscxGdecRAyaNheboQkqQAiCWK12GwuwMBvEtAarU2Y7mKTwKZIqhIExyQzbAbls7NTOdN2vX1OAyEaAN.png"
+            alt="">
+          <a href="#" class="addCardBtn">加入購物車</a>
+          <h3>Antony 雙人床架／雙人加大</h3>
+          <del class="originPrice">NT$18,000</del>
+          <p class="nowPrice">NT$12,000</p>
+        </li> -->
+      </ul>
+    </section>
+    <section class="shoppingCart">
+      <h3 class="section-title">我的購物車</h3>
+      <div class="overflowWrap">
+        <table class="shoppingCart-table">
+          <thead>
+            <tr>
+              <th width="40%">品項</th>
+              <th width="15%">單價</th>
+              <th width="15%">數量</th>
+              <th width="15%">金額</th>
+              <th width="15%"></th>
+            </tr>
+          </thead>
+          <tbody class="shoppingCart-tbody">
+          <tr>
+            <!-- <td>
+              <div class="cardItem-title">
+                <img src="https://i.imgur.com/HvT3zlU.png" alt="">
+                <p>Antony 雙人床架／雙人加大</p>
+              </div>
+            </td>
+            <td>NT$12,000</td>
+            <td>1</td>
+            <td>NT$12,000</td>
+            <td class="discardBtn">
+              <a href="#" class="material-icons">
+                clear
+              </a>
+            </td> -->
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>
+              <a href="#" class="discardAllBtn">刪除所有品項</a>
+            </td>
+            <td></td>
+            <td></td>
+            <td>
+              <p>總金額</p>
+            </td>
+            <td class="total"></td>
+          </tr>
+        </tfoot>
+        </table>
+      </div>
+    </section>
+    <section class="orderInfo wrap" id="orderInfo">
+      <h3 class="section-title">填寫預訂資料</h3>
+      <form action="" class="orderInfo-form">
+        <div class="orderInfo-formGroup">
+          <label for="customerName" class="orderInfo-label">姓名</label>
+          <div class="orderInfo-inputWrap">
+            <input type="text" class="orderInfo-input" id="customerName" placeholder="請輸入姓名" name="姓名">
+            <p class="orderInfo-message" data-message="姓名">必填</p>
+          </div>
+        </div>
+        <div class="orderInfo-formGroup">
+          <label for="customerPhone" class="orderInfo-label">電話</label>
+          <div class="orderInfo-inputWrap">
+            <input type="tel" class="orderInfo-input" id="customerPhone" placeholder="請輸入電話" name="電話">
+            <p class="orderInfo-message" data-message="電話">必填</p>
+          </div>
+        </div>
+        <div class="orderInfo-formGroup">
+          <label for="customerEmail" class="orderInfo-label">Email</label>
+          <div class="orderInfo-inputWrap">
+            <input type="email" class="orderInfo-input" id="customerEmail" placeholder="請輸入 Email" name="Email">
+            <p class="orderInfo-message" data-message="Email">必填</p>
+          </div>
+        </div>
+        <div class="orderInfo-formGroup">
+          <label for="customerAddress" class="orderInfo-label">寄送地址</label>
+          <div class="orderInfo-inputWrap">
+            <input type="text" class="orderInfo-input" id="customerAddress" placeholder="請輸入寄送地址" name="寄送地址">
+            <p class="orderInfo-message" data-message="寄送地址">必填</p>
+          </div>
+        </div>
+        <div class="orderInfo-formGroup">
+          <label for="tradeWay" class="orderInfo-label">交易方式</label>
+          <div class="orderInfo-inputWrap">
+            <select id="tradeWay" class="orderInfo-input" name="交易方式">
+              <option value="ATM" selected>ATM</option>
+              <option value="信用卡">信用卡</option>
+              <option value="超商付款">超商付款</option>
+            </select>
+          </div>
+        </div>
+        <input type="submit" value="送出預訂資料" class="orderInfo-btn">
+      </form>
+    </section>
 
     <script type="module" src="../main.js"></script>
-  </body>
+    <script type="module" src="../index.js"></script>
+</body>
+
 </html>

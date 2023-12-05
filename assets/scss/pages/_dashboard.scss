@@ -1,0 +1,89 @@
+.orderPage-list {
+  padding: 60px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.orderPage-list .discardAllBtn {
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  margin-bottom: 12px;
+}
+
+.orderPage-table {
+  border: 1px solid #000000;
+  width: 100%;
+}
+
+.orderPage-table th,
+.orderPage-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #000000;
+}
+
+@media (max-width: 1110px) {
+  .orderPage-table {
+    width: 1100px;
+  }
+}
+
+.delSingleOrder-Btn {
+  display: block;
+  background-color: #C44021;
+  color: #fff;
+  border: 0;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.delSingleOrder-Btn:hover {
+  opacity: 0.8;
+}
+
+.orderStatus {
+  position: relative;
+}
+
+.orderStatus a {
+  position: absolute;
+  padding: 10px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: block;
+}
+
+.orderStatus-unDone {
+  background-color: #747474;
+}
+
+.orderStatus-unDone:hover {
+  background-color: #000000;
+}
+
+.orderStatus-done {
+  background-color: #000000;
+}
+
+.orderStatus-done:hover {
+  background-color: #747474;
+}
+
+.orderTableWrap {
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.orderTableWrap::-webkit-scrollbar {
+  display: none;
+}
